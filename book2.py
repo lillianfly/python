@@ -16,7 +16,7 @@ def fib():
 
 from itertools import islice
 
-print '第10章结果{info}'.format(info=list(islice(fib(), 5)))
+print( '第10章结果{info}'.format(info=list(islice(fib(), 5))))
 
 # 枚举值　https://www.cnblogs.com/ucos/p/5896861.html
 from enum import Enum, unique

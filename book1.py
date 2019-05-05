@@ -22,24 +22,24 @@ b = 2
 a, b = b, a
 
 # 打印
-print 'hello %s!' % ('Tom',)
-print 'hello %(name)s' % {'name': 'Tom!'}
-print '{great} from {lag}'.format(great='Hello world', lag='Python')  # 最建议的语法
+print('hello %s!' % ('Tom',))
+print('hello %(name)s' % {'name': 'Tom!'})
+print('{great} from {lag}'.format(great='Hello world', lag='Python') ) # 最建议的语法
 
 # 3
 # 三元运算符
 x = 0
 y = -2
-print x if x < y else y
+print(x if x < y else y)
 
 # swith
 n = 0
 if n == 0:
-    print n
+    print (n)
 elif n == 1:
-    print n + 1
+    print (n + 1)
 else:
-    print n + 2
+    print (n + 2)
 
 
 def f(x):
@@ -52,4 +52,4 @@ def f(x):
 # 7　常量放在一起const.py方便管理
 import const
 
-print '{lession}值为{number}'.format(lession='第7课',number=const.FIRST*5)
+print ('{lession}值为{number}'.format(lession='第7课',number=const.FIRST*5))
